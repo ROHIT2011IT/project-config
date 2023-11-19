@@ -1,7 +1,3 @@
- spring:
-    datasource:
-       url:jdbc:oracle:thin:@<IP>:1521:orcl
-       username: rohitgarg
-       password: cricket
-       driver:
-          class:oracle.jdbc.driver.OracleDriver
+commerce:
+   name: clothing
+   enable: true
